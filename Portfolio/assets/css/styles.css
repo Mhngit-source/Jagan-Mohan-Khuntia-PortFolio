@@ -2204,3 +2204,10 @@ textarea.contact__input {
 .tech-icon:hover {
   animation: floatTech 0.5s ease;
 }
+
+/* HIDE PROFILE IMAGE ON MOBILE & SMALL SCREENS */
+@media screen and (max-width: 767px) {
+  .home__img {
+    display: none !important;
+  }
+}
